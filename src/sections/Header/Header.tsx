@@ -34,7 +34,7 @@ const BasicInfo = () => (
       </Link>
     </Chip>
     <Chip>
-      <Link href="https://github.com/davidleger95" external>
+      <Link href="https://github.com/davejsdev" external>
         👨‍💻 GitHub
       </Link>
     </Chip>
@@ -57,7 +57,7 @@ function Header() {
     <StyledHeader>
       <CtaGroup>
         <Button
-          href="https://github.com/davidleger95/resume.davejs.dev"
+          href="https://github.com/davejsdev/resume.davejs.dev"
           target="_blank"
           rel="noopener noreferer"
         >
