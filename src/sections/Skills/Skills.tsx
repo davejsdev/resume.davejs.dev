@@ -8,14 +8,11 @@ type Skill = { label: string; icon?: string };
 const skills: Skill[] = [
   { label: 'TypeScript', icon: 'typescript-plain' },
   { label: 'React', icon: 'react-plain' },
-  { label: 'Vue', icon: 'vuejs-plain' },
+  { label: 'Terraform', icon: 'terraform-plain' },
   { label: 'CSS', icon: 'css3-plain' },
   { label: 'HTML', icon: 'html5-plain' },
   { label: 'Storybook', icon: 'storybook-plain' },
   { label: 'Testing Library' },
-  { label: 'GraphQL', icon: 'graphql-plain' },
-  { label: 'Amplitude' },
-  { label: 'Web Components' },
 ];
 
 // const learning: Skill[] = [
