@@ -44,11 +44,10 @@ function Skills() {
       <header>
         <Heading level={3}>Technologies</Heading>
         <Prose size="small">
-          Languages, frameworks, and tools I have extensive or recent experience
-          with
+          I have extensive or recent experience with these technologies
         </Prose>
       </header>
-      <TagList items={skills} />
+      <TagList items={skills} limit={20} />
 
       <header>
         <Heading level={3}>Specialties</Heading>
