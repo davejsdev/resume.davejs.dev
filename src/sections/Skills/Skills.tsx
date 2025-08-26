@@ -9,25 +9,28 @@ const skills: Skill[] = [
   { label: 'TypeScript', icon: 'typescript-plain' },
   { label: 'React', icon: 'react-plain' },
   { label: 'Terraform', icon: 'terraform-plain' },
-  { label: 'CSS', icon: 'css3-plain' },
   { label: 'HTML', icon: 'html5-plain' },
+  { label: 'CSS', icon: 'css3-plain' },
+  { label: 'Tailwind', icon: 'tailwindcss-original' },
   { label: 'Storybook', icon: 'storybook-plain' },
   { label: 'Testing Library' },
+  { label: 'GraphQL', icon: 'graphql-plain' },
+  { label: 'Web Components' },
 ];
 
-// const learning: Skill[] = [
-//   { label: 'Kubernetes', icon: 'kubernetes-plain' },
-//   { label: 'Terraform', icon: 'terraform-plain' },
-//   { label: 'Docker', icon: 'docker-plain' },
-//   { label: 'Go', icon: 'go-plain' },
-// ];
+const learning: Skill[] = [
+  { label: 'Convex' },
+  { label: 'TanStack Start/Query/Router/Forms' },
+  { label: 'Go', icon: 'go-plain' },
+];
 
 const softSkills: Skill[] = [
-  { label: 'Growth engineering' },
-  { label: 'Design systems' },
-  { label: 'Web accessibility & best practices' },
-  { label: 'Testing methodologies (unit, E2E, VRT)' },
-  { label: 'Remote communication' },
+  { label: 'Product engineering (Shape Up methodologies)' },
+  { label: 'Design systems & design engineering' },
+  { label: 'Web standards (a11y, best practices, performance, browser APIs)' },
+  { label: 'Testing methodologies (unit, integration, E2E, VRT)' },
+  { label: 'On-call duties & incident management' },
+  { label: 'Remote work' },
 ];
 
 function Skills() {
@@ -36,18 +39,25 @@ function Skills() {
       <header>
         <Heading level={3}>Technologies</Heading>
         <Prose size="small">
-          Languages, frameworks, and tools that I know exceptionally well
+          Languages, frameworks, and tools that I know well
         </Prose>
       </header>
       <TagList items={skills} />
-      
+
       <header>
         <Heading level={3}>Specialties</Heading>
         <Prose size="small">
-          Areas in which I have valuable domain knowledge and experience
+          I have extensive domain knowledge and experience in these areas
         </Prose>
       </header>
       <TagList items={softSkills} />
+      <header>
+        <Heading level={3}>Learning</Heading>
+        <Prose size="small">
+          Technologies & concepts I&apos;m learning in my spare time
+        </Prose>
+      </header>
+      <TagList items={learning} />
     </Section>
   );
 }

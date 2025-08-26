@@ -19,3 +19,6 @@ svgr
 urql
 vuejs
 wordmark
+shadcn
+amazonwebservices
+cypressio
