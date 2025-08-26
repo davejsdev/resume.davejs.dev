@@ -75,8 +75,11 @@ function Header() {
       <Heading level={1}>David Leger</Heading>
       <BasicInfo />
       <Prose size="large">
-        Software engineer with design and product sensibilities. I’m passionate
-        about creating great experiences on the web.
+        Software engineer with design sensibilities and a strong product
+        mindset. Track record of building high quality web products with over 8+
+        years of experience. Extensive experience with remote-first companies,
+        working with high levels of autonomy, solving cross-functional problems,
+        and managing ambiguity.
       </Prose>
     </StyledHeader>
   );
