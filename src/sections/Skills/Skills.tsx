@@ -11,6 +11,11 @@ const skills: Skill[] = [
   { label: 'HTML/CSS', icon: 'html5-plain' },
   { label: 'Tailwind', icon: 'tailwindcss-original' },
   { label: 'Storybook', icon: 'storybook-plain' },
+  { label: 'PostgreSQL', icon: 'postgresql-plain' },
+  {
+    label: 'AWS (Lambda, SNS/SQS, S3)',
+    icon: 'amazonwebservices-plain-wordmark',
+  },
   { label: 'GraphQL', icon: 'graphql-plain' },
   { label: 'Web Components' },
 ];
