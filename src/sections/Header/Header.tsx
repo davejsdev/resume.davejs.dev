@@ -76,7 +76,7 @@ function Header() {
       <BasicInfo />
       <Prose size="large">
         Software engineer with design sensibilities and a strong product
-        mindset. Track record of building high quality web products with over 8+
+        mindset. Track record of building high quality web products with 8+
         years of experience. Extensive experience with remote-first companies,
         working with high levels of autonomy, solving cross-functional problems,
         and managing ambiguity.
