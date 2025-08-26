@@ -8,6 +8,7 @@ type Skill = { label: string; icon?: string };
 const skills: Skill[] = [
   { label: 'TypeScript', icon: 'typescript-plain' },
   { label: 'React', icon: 'react-plain' },
+  { label: 'Terraform', icon: 'terraform-plain' },
   { label: 'HTML', icon: 'html5-plain' },
   { label: 'CSS', icon: 'css3-plain' },
   { label: 'Tailwind', icon: 'tailwindcss-original' },
