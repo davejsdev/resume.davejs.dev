@@ -24,3 +24,4 @@ amazonwebservices
 cypressio
 stenciljs
 styledcomponents
+VHDL

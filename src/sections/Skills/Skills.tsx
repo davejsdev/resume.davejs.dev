@@ -59,7 +59,7 @@ function Skills() {
       <header>
         <Heading level={3}>Learning</Heading>
         <Prose size="small">
-          Technologies & concepts I&apos;m learning in my spare time
+          Technologies I&apos;m learning in my spare time
         </Prose>
       </header>
       <TagList items={learning} />
