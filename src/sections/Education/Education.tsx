@@ -40,8 +40,9 @@ const Education = () => {
           <p>
             Languages most studied in this program included Java
             (object-oriented programming, design patterns, algorithms),
-            Racket/LISP (functional programming), C (machine-level, hardware
-            programming), SQL (databases), and VHDL (hardware programming).
+            Racket/LISP (functional programming), C & Assembly (machine-level,
+            hardware programming), SQL (databases), and VHDL (hardware
+            programming).
           </p>
           <p>
             As part of my degree, I completed three work terms with Mariner

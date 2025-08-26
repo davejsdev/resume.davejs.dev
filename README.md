@@ -18,3 +18,6 @@ While the end product is functionally complete, there are a few things I'd like 
 - Playwright: for visual regression testing
 - Stylelint: for ensuring CSS is clean (I'd especially like to lint for rational-ordering, which keeps properties with similar functionality grouped closely)
 - bundlesize: I'd like to add bundlesize check for extreme bloat. Sometimes you can accidentally include deps that are way too heavy for what they do and it's better to just write something yourself.
+- motion: for subtle animations
+
+Eventually I'd like to convert this to Astro -- since it's better suited for static sites -- and hook up a git-based CMS.
