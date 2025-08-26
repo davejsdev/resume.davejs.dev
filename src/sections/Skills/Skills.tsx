@@ -8,15 +8,16 @@ type Skill = { label: string; icon?: string };
 const skills: Skill[] = [
   { label: 'TypeScript', icon: 'typescript-plain' },
   { label: 'React', icon: 'react-plain' },
-  { label: 'HTML/CSS', icon: 'html5-plain' },
+  { label: 'HTML/CSS' },
   { label: 'Tailwind', icon: 'tailwindcss-original' },
   { label: 'Storybook', icon: 'storybook-plain' },
-  { label: 'PostgreSQL', icon: 'postgresql-plain' },
   {
     label: 'AWS (Lambda, SNS/SQS, S3)',
     icon: 'amazonwebservices-plain-wordmark',
   },
+  { label: 'Terraform', icon: 'terraform-plain' },
   { label: 'GraphQL', icon: 'graphql-plain' },
+  { label: 'PostgreSQL', icon: 'postgresql-plain' },
   { label: 'Web Components' },
 ];
 
@@ -28,11 +29,12 @@ const learning: Skill[] = [
 ];
 
 const softSkills: Skill[] = [
-  { label: 'Product engineering (Shape Up methodologies)' },
-  { label: 'Design systems & design engineering' },
-  { label: 'Web standards (a11y, best practices, performance, browser APIs)' },
+  { label: 'Product engineering' },
+  { label: 'Design systems' },
+  { label: 'Web standards & browser APIs' },
+  { label: 'Web accessibility & best practices' },
   { label: 'Testing methodologies (unit, integration, E2E, VRT)' },
-  { label: 'On-call duties & incident management' },
+  { label: 'On-call & incident management' },
   { label: 'Remote work' },
 ];
 
