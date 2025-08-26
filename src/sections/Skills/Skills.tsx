@@ -19,6 +19,7 @@ const learning: Skill[] = [
   { label: 'Convex' },
   { label: 'TanStack Start/Query/Router/Forms' },
   { label: 'Go', icon: 'go-plain' },
+  { label: 'Gleam', icon: 'gleam-plain' },
 ];
 
 const softSkills: Skill[] = [
