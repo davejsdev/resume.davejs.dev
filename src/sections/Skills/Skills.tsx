@@ -42,7 +42,7 @@ function Skills() {
       <header>
         <Heading level={3}>Technologies</Heading>
         <Prose size="small">
-          Languages, frameworks, and tools that I know well
+          Languages, frameworks, and tools I extensive or recent experience with
         </Prose>
       </header>
       <TagList items={skills} />
