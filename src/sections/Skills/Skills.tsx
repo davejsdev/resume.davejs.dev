@@ -12,7 +12,7 @@ const skills: Skill[] = [
   { label: 'Tailwind', icon: 'tailwindcss-original' },
   { label: 'Storybook', icon: 'storybook-plain' },
   { label: 'GraphQL', icon: 'graphql-plain' },
-  { label: 'Web Components' },
+  { label: 'Web Components (Stencil.js)' },
   {
     label: 'AWS (Lambda, SNS/SQS, S3)',
     icon: 'amazonwebservices-plain-wordmark',
@@ -29,13 +29,13 @@ const learning: Skill[] = [
 ];
 
 const softSkills: Skill[] = [
-  { label: 'Product engineering' },
-  { label: 'Design systems' },
-  { label: 'Web standards & browser APIs' },
-  { label: 'Web accessibility & best practices' },
-  { label: 'Testing methodologies (unit, integration, E2E, VRT)' },
-  { label: 'On-call & incident management' },
-  { label: 'Remote work' },
+  { label: '🚀 Product engineering' },
+  { label: '🎨 Design systems' },
+  { label: '🌐 Web standards & browser APIs' },
+  { label: '🌟 Web accessibility & best practices' },
+  { label: '🧪 Testing methodologies (unit, integration, E2E, VRT)' },
+  { label: '🚨 On-call & incident management' },
+  { label: '👨‍💻 Remote work' },
 ];
 
 function Skills() {
